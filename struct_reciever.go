@@ -71,16 +71,16 @@ func promptOptions(b bill) {
 		fmt.Println(tip)
 	case "s":
 		fmt.Println("you chose t")
-		//default:
-		//	fmt.Println("Not a valid option")
-		//	promptOptions(b)
+	default:
+		fmt.Println("Not a valid option")
+		promptOptions(b)
 
 	}
 
 }
 func struct_and_reciever() {
-	//bill := newBill("mario bill")
-	//fmt.Println(bill.format())
+	bill := newBill("mario bill")
+	fmt.Println(bill.format())
 
 	mybill := createBill()
 	fmt.Println(mybill)
