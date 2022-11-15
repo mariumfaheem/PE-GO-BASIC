@@ -11,7 +11,7 @@ func stringfunc() {
 
 	fmt.Print("you scored %f points! \n", 225.55)
 	fmt.Print("you scored %0.1f points! \n", 225.55)
-	fmt.Println("hello", nameFour, nameFou1r)
+	fmt.Println("hello", nameFour, nameFour)
 	fmt.Println("my age is %v and my name is %v", age, name)
 
 	var str = fmt.Sprintf("my age is %v and my name is %v", age, name)
